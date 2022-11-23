@@ -307,4 +307,7 @@ html{
         flex-wrap: wrap;
         
     }
+    span{
+        display: block;
+    }
 }
