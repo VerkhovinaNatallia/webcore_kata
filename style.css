@@ -303,7 +303,7 @@ html{
         background-color: whitesmoke;
     }
     .nav__ul{
-        overflow:hidden;
+        overflow:none;
         flex-wrap: wrap;
         
     }
