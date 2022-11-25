@@ -302,10 +302,11 @@ html{
     .button{
         background-color: whitesmoke;
     }
+    .main__nav{
+        overflow:hidden;
+    }
     .nav__ul{
-        overflow:none;
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap; 
     }
     span{
         display: block;
