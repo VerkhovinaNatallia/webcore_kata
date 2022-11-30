@@ -10,91 +10,98 @@
 </head>
 <body>
     <header class="header">
-        <button class="header__button1 button" type="button"></button>
-        <a class="header__logo logo" href=""> 
-            <img src="./img_header/logo.svg" alt="logo" class="logo__img">
-        </a>
-        <ul class="header__ul ul">
+        <ul class="menu">
+            <li>
+                <button class="header__btn"">
+                    <img src="./img_header/1.svg" alt="icon">
+                </button>
+            </li>
+            <li>
+                <a class="header__logo" href="#">
+                    <div class="logo__block">
+                        <img src="./img_header/logo.svg" alt="logo" class="logo__img">
+                    </div>
+                </a>
+            </li>
             <li >
-                <button class="header__button4 button">
+                <button class="header__btn">
+                    <img src="./img_header/4.svg" alt="icon">
                 </button>
             </li>
             <li >
-                <button class="header__button5 button">
+                <button class="header__btn">
+                    <img src="./img_header/5.svg" alt="icon">
                 </button>
             </li>
             <li >
-                <button class="header__button6 button">
+                <button class="header__btn">
+                    <img src="./img_header/6.svg" alt="icon">
                 </button>
+            </li>
+            <li >
+                <div class="header__block">
+                    <span class="header__text">Оставить заявку</span>
+                    <button class="header__btn">
+                        <img src="./img_header/2.svg" alt="icon">
+                    </button>  
+                </div>
+            </li>
+            <li >
+                <div class="header__block">
+                    <span class="header__text">Статус ремонта</span>
+                    <button class="header__btn">
+                        <img src="./img_header/3.svg" alt="icon">
+                    </button> 
+                </div>
             </li>
         </ul>
-        <ul class="header__ul">
-            <li >
-                <button class="header__button2 button">
-                </button>
-            </li>
-            <li >
-                <button class="header__button3 button">
-                </button>
-            </li>
-        </ul>
+        <nav class="navigation">
+            <ul class="navigation__list">
+                <li >
+                    <a href="#" class="navigation__btn ">Ремонтируемые бренды</a>
+                 </li>
+                <li>
+                    <a href="#" class="navigation__btn btn2">Дополнительные услуги</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__btn btn3">Цены на услуги</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__btn btn4">Адреса сервисных центров</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__btn btn5">Специальные цены</a>
+                </li>
+                <li>
+                    <a href="#" class="navigation__btn btn6">Отзывы</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
 
 
     <main class="main">
-        <div class="main__div">
-            <h1 class="main__h1">Услуги и сервисы</h1> 
-            <a href="" class="main__a">
-                <span class="main__text1">Оставить заявку</span>
-                <button class="header__button2 button">
-                </button>  
-            </a>
-            <a href="" class="main__a">
-                <span class="main__text2">Статус ремонта</span>
-                <button class="header__button3 button">
-                </button>    
-            </a>
+        <div class="main__block">
+            <h1 class="main__title">Услуги и сервисы</h1> 
         </div>
-
-        <nav class="main__nav nav">
-            <ul class="nav__ul">
-                <li class="nav__li1">
-                    <button class="nav__button active">Ремонтируемые бренды</button>
-                 </li>
-                <li class="nav__li">
-                    <button class="nav__button button2">Дополнительные услуги</button>
-                </li>
-                <li class="nav__li">
-                    <button class="nav__button button3">Цены на услуги</button>
-                </li>
-                <li class="nav__li">
-                    <button class="nav__button button4">Адреса сервисных центров</button>
-                </li>
-                <li class="nav__li">
-                    <button class="nav__button button5">Специальные цены</button>
-                </li>
-                <li class="nav__li">
-                    <button class="nav__button button6">Отзывы</button>
-                </li>
-            </ul>
-        </nav>
-        <section class="main__section1 section1">
-            <div class="section1__block">
-                <p class="section1__p">
-                     Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
-                </p>
-                <p class="section1__p p">
-                    Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера
-                    <span>, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
-                        </span>
-                </p>
-               
-                <button class="section1__button">
-                    <img src="./img_main/icon.png" alt="">
+        <section class="section">
+            <div class="section__btn-block">
+                <div class="section__block">
+                    <p class="section__text">
+                        Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.
+                    </p>
+                    <p class="section__text">
+                        Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
+                    </p>
+                </div>
+                <button class="section__button">
+                    <img src="./img_main/icon.svg" alt="">
                     Читать далее</button>
             </div>
-            <img class="section1__img" src="./img_main/Picture_Copy.png" alt="">
+            <div class="section__img">
+                <img src="./img_main/Picture_Copy.png" alt="">
+            </div>
         </section>
 
     </main>
