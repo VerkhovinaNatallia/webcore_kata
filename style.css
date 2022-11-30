@@ -83,8 +83,7 @@ display: none;
 .navigation{
     position: relative;
     top: 82px;
-    margin:0 25px 0 32px;
-
+    margin:0 0 0 16px;
 }
 .navigation__list::-webkit-scrollbar {
     width: 0;
@@ -245,7 +244,8 @@ display: none;
         height: 50.81px;
     }
     .navigation{
-        width: 768px;
+        margin:0 13px 0 24px;
+        width: auto;
     }
     .section{
         display: flex;
@@ -330,6 +330,7 @@ display: none;
         position: absolute;
         top: 90px;
         width: 1063px;
+        margin:0 25px 0 32px;
     }
     .navigation__list{
         width: 1063px;
