@@ -102,6 +102,7 @@ html{
 }
 .contacts__btn{
     border-radius: 50%;
+    background-color: white;
 }
 
 .contacts__address{
