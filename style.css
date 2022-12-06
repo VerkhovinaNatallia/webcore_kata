@@ -167,7 +167,9 @@ display: none;
     margin-top: 29px;
     gap:16px;
 }
-
+h2{
+    display: none;
+}
 .section__block{
     padding:0 16px;
     display: flex;
