@@ -24,37 +24,51 @@ ol, ul {
 a{
     text-decoration: none;
 }
-button{
+button, a{
     cursor: pointer;
+}
+.btn{
+    height: 40px;
+    width: 40px;
+    background: #FF3E79;
+    border-radius: 20px
 }
 /*--------*/
 
-html{
+.content{
     width: 320px;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
 }
 
-.header{
+.block{
     display: flex;
     padding: 0 24px;
+    gap: 16.73px;
+    padding-top: 18.73px;
 }
-.header__btn{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin-top: 24px;
+.block__btn{
+    margin-top: 4.27px;
 }
-.logo__block{
-    width: 97px;
+.logo{
+    flex-grow: 1;
+}
+
+.logo__link{
+    display: inline-block;
     height: 51px;
-    padding: 18.73px 78.27px 0 16.73px;
+    width: 97px ;
 }
 .navigation{
-    margin-top: 50.27px;
+    padding-top: 50.27px;
+    flex-grow: 1;
 }
 .navigation__list{
     display: flex;
     flex-direction:column;
     vertical-align: middle;
+    gap: 32px;
 }
 .navigation__list li{
     display: flex;
@@ -72,8 +86,6 @@ html{
     color: #1B1C21;
     padding-left: 24px;
     font-weight: 500;
-    height:24px;
-    margin-bottom: 32px;
     display: flex;
     align-items: center;
 }
@@ -96,17 +108,15 @@ html{
 }
 
 .contacts{
-    margin: 244px 0 0 24px;
+    padding-left:  24px;
 
 }
 .contacts__list{
     display: flex;
-    gap:16px
+    gap:16px;
+    padding-right:24px;
 }
-.contacts__btn{
-    border-radius: 50%;
-    background-color: white;
-}
+
 
 .contacts__address{
     display: flex;
@@ -144,15 +154,16 @@ html{
     margin-left: 24px;
 }
 
-.lang__link{
+.lang__btn{
     font-family: 'TT Lakes';
     font-size: 16px;
     line-height: 24px;
     letter-spacing: -0.2px;
     color: #1B1C21;
     font-weight: 500;
+    background: #FFFFFF;
 }
-.lang__link:hover{
+.lang__btn:hover{
     color: #7E7E82;
 }
 .header__btn:hover,.contacts__btn:hover{
