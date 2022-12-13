@@ -1,0 +1,119 @@
+/*Обнуление стилей*/
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, span,
+a, address,img, ol, ul, li, footer, header, nav, section, button{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+footer, header,nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+}
+/*--------*/
+
+html{
+    width: 320px;
+    margin: 0 auto;
+    background-color: #f5f5f5;
+}
+.servise__block{
+	padding: 16px;
+	background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+	border-top: 1px solid #D9FFF5;
+
+}
+
+.servise__title{
+	font-family: 'TT Lakes';
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	text-transform: uppercase;
+	color: #7E7E82;
+	transform:none
+}
+
+
+
+
+
+.sleider{
+	max-width: 320px;
+	position: relative;
+	padding: 16px;
+
+}
+
+.sleider__item{
+	display: none;
+}
+.sleidel__logo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-width: 192px;
+	padding: 16px;
+	background: #FFFFFF;
+	border: 1px solid #EAEAEA;
+	border-radius: 6px;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+  }
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+
+  .dot {
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 0 0 12px ;
+	background-color: #DDDDDD;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+	background-color: #B5B6BC;
+  }
+
+
+.sleider__btn{
+	height: 40px;
+	width: 40px;
+	border: 2px solid #FF3E79;
+	border-radius: 20px;
+	background-color: #FFFFFF;
+	
+}
